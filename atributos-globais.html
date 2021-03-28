@@ -1,0 +1,40 @@
+<!--
+    Atributos Globais mais utilizados:
+
+    - class =   
+                aplicar estilo CSS;
+                classificar o conteúdo;
+                acessar pelo JavaScript(JS);
+    
+    - contenteditable = 
+                permite editar o conteúdo diretamente
+                na página, porém, somente enquanto estiver executando;
+    - data-* = 
+                data-id ou data-list, usado pelo JS
+                pode ser qualque coisa depois do data-
+    - hidden =
+                esconde a tag(elemento);
+    - id =
+                referenciar a tag (1 por tag, sendo diferentes);
+                também usado pelo JS;
+    - style = 
+                aplicar estilos personalizados (não vamos usar diretamente na tag);
+                será usado externamente, via css na class ou id;
+    - tabindex =
+                ordem dos tabs na tela;
+    - title = 
+                definir um título (não muda na visualização);
+                é o que aparece quando coloca o mouse em cima (hint);
+-->
+
+<div class="carrinho" contenteditable="true" data-id="" title="define um título" tabindex="                                             2">
+    <h1>teste1</h1>
+</div>
+
+<div class="carrinho" id="cart1" style="color: blue;" tabindex="1">
+    <h1>teste2</h1>
+</div>
+
+<div class="carrinho" id="cart2" hidden>
+    <h1>teste3</h1>
+</div>
